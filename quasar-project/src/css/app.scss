@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(197, 197, 228);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: "roboto";
+}
+
+//primeira página
+.page {
+  width: 100%;
+  margin-top: 3.3rem;
+}
+
+.background {
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 2rem;
+}
+.logo {
+  max-width: 100%;
+  margin-top: 6rem;
+  padding: 3rem;
+}
+
+.title {
+  margin-top: -1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  color: rgba(40, 40, 49);
+}
+
+.hint-label {
+  margin: 0.3rem;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.q-gutter-md {
+  padding: 0 1rem 0rem 1rem;
+  margin: -1.8rem 0.6rem 0 0.6rem;
+}
+
+.q-input {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.8rem;
+}
+
+.column-1 {
+  background: linear-gradient(to right, #268adc, #44a3aa);
+}
+
+.column-2 {
+  background: linear-gradient(to right, #c3c4c5, #b1b0b0);
+  color: rgba(40, 40, 49);
+}
+
+.button {
+  margin-top: -0.7rem;
+  margin-bottom: 0.8rem;
+  width: 95%;
+  font-size: 1rem;
+  border-radius: 0.1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #2897f1, #44a3aa);
+  color: rgb(40, 40, 49);
+}
+
+//segunda página
+.header {
+  background: linear-gradient(to right, #2897f1, #44a3aa);
+  font-size: 1.8rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: rgba(40, 40, 49);
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+thead {
+  background: linear-gradient(to right, #268adc, #44a3aa);
+  color: rgba(40, 40, 49);
+}
+
+.tableDivide {
+  margin: 2rem;
+}
+
+.q-table__bottom {
+  display: none;
+}
+
+.q-table__sort-icon {
+  display: none;
+}
