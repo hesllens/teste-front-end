@@ -1,3 +1,10 @@
+
+#projeto buildado no vercel
+
+https://teste-frontend-egs.vercel.app/#/
+
+# ou
+
 #entrar na pasta quasar-project
 via vscode
 
